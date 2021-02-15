@@ -1,6 +1,5 @@
 const chai                  = require('chai');
 const expect                = chai.expect;
-const Connection            = require('../config/database');
 const UserModel             = require('../models/user.model');
 
 describe("User Model", function(){
