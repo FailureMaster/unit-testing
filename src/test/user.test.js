@@ -12,9 +12,4 @@ describe("User Model", function(){
 
         expect(result).to.equal(true);
     });
-
-    after(function(){
-        /* close DB connection */ 
-        Connection.end();
-    });
 });

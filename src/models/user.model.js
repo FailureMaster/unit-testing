@@ -1,5 +1,5 @@
 const Mysql                 = require('mysql');
-const executeQuery  		= require('./config/database.js');
+const executeQuery  		= require('../config/database.js');
 
 class UserModel {
 
@@ -8,7 +8,7 @@ class UserModel {
 	}
 
 	async createUser(params){
-
+  
 	}
 }
 
